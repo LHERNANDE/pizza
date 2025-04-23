@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul{
+    list-style-type: none;
+    background-color: #e4002b;
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.primero{
+    color: #fafafa;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    font-family: "Roboto";
+
+}
+.primero:hover{
+    border:2px solid #f7bc00;
+    border-radius: 30px;
+    color: #e4002b;
+    background-color: #f7bc00;
+}
+
+video{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+
+ol{
+    list-style-type: none;
+    margin-bottom: 80px;
+    background-color: #e4002b;
+    height: 450px;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.segundo{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #fafafa;
+    
+}
+
+.tercero{
+    font-family:"Great Vibes";
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #fafafa;
+}
+
+h1{
+    top: 0;
+    text-align: center;
+    color: #e4002b;
+    font-family: "Roboto";
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+body{
+    margin: 0;
+}
+.galeria{
+    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.quinto{
+    background-color: white;
+}
+
+.cuarto{
+    margin-left: 20px;
+}
+
+.mensaje{
+    position: fixed;
+    z-index: 1;
+    margin-left: 1800px;
+    margin-top: 800px;
+    color: rgb(53, 211, 53);
+    font-size: 70px;
+}
+
+.menu{
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 100px;
+    width: 100%;
+}
