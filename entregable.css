@@ -26,7 +26,7 @@ ul{
 .primero:hover{
     border:2px solid #f7bc00;
     border-radius: 30px;
-    color: #e4002b;
+
     background-color: #f7bc00;
 }
 
@@ -36,6 +36,7 @@ video{
     width: 100%;
     object-fit: cover;
     filter: brightness(55%);
+    margin-top: 10px;
 }
 
 ol{
@@ -47,6 +48,7 @@ ol{
     width: 100%;
     margin: 0px;
     padding: 0px;
+    margin-top: -5px;
 }
 
 .segundo{
@@ -113,4 +115,13 @@ body{
     z-index: 1;
     margin-bottom: 100px;
     width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #e4002b;
 }
