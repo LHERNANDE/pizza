@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul{
+    list-style-type: none;
+    background-color: #e4002b;
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.primero{
+    color: #fafafa;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    font-family: "Roboto";
+
+}
+.primero:hover{
+    border:2px solid #f7bc00;
+    border-radius: 30px;
+    color: #e4002b;
+    background-color: #f7bc00;
+}
+
+body{
+    background-color: #fff9f2;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 12px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 500px;
+}
+
+th{
+    color: white;
+    background-color: #e4002b;
+    padding: 15px;
+    font-family: "Roboto";
+}
+
+td{
+    color: black;
+    padding: 15px;
+    border-bottom:1px solid rgb(176, 176, 176);
+    font-family: "Roboto";
+}
+
+h1{
+    color: #e4002b;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Great Vibes";
+    margin-top: 50px;
+}
+
+tr:nth-child(even){
+    background-color: #ffffff
+}
+
+tr:nth-child(odd){
+    background-color: #f7ebde
+}
+
+.mensaje{
+    position: fixed;
+    z-index: 1;
+    margin-left: 1800px;
+    margin-top: 800px;
+    color: rgb(53, 211, 53);
+    font-size: 70px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #e4002b;
+}
+
