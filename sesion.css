@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul{
+    list-style-type: none;
+    background-color: #e4002b;
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.primero{
+    color: #fafafa;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    font-family: "Roboto";
+
+}
+.primero:hover{
+    border:2px solid #f7bc00;
+    border-radius: 30px;
+    color: #e4002b;
+    background-color: #f7bc00;
+}
+
+body{
+    background-color: #fff9f2;
+}
+
+
+.mensaje{
+    position: fixed;
+    z-index: 1;
+    margin-left: 1800px;
+    margin-top: 800px;
+    color: rgb(53, 211, 53);
+    font-size: 70px;
+}
+
+.formulario{
+    width: 300PX;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.327);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family:"roboto";
+    color: black;
+    font-size: 16px;
+}
+
+.entrada{
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(211, 219, 228);
+    font-family: "roboto";
+    font-size: 16px;
+    color: black;
+}
+
+.enviar{
+    width: 106%;
+    color: white;
+    font-family: "roboto";
+    font-size: 15px;
+    background-color: #e4002b;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 7px;
+
+}
+
+.enviar:hover{
+    background-color: #f7bc00;
+    color: #e4002b;
+}
+
+.contra{
+    margin-right: 50px;
+    font-size: 11px;
+    color: #e4002b;
+}
+
+.cuenta{
+    margin-left: 32px;
+    font-size: 11px;
+    color: #e4002b;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #e4002b;
+}
+label a{
+    color: #e4002b;
+}
