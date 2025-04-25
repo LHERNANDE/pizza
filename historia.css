@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul{
+    list-style-type: none;
+    background-color: #e4002b;
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.primero{
+    color: #fafafa;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    font-family: "Roboto";
+
+}
+.primero:hover{
+    border:2px solid #f7bc00;
+    border-radius: 30px;
+    color: #e4002b;
+    background-color: #f7bc00;
+}
+
+body{
+    background-color: #fff9f2;
+}
+.perfil{
+    padding: 100px;
+    text-align: center;
+    background-color: #e4002b;
+}
+
+
+.mensaje{
+    position: fixed;
+    z-index: 1;
+    margin-left: 1800px;
+    margin-top: 800px;
+    color: rgb(53, 211, 53);
+    font-size: 70px;
+}
+
+img{
+    border-radius: 200px;
+    border: 8px solid #cdcdcd;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: #e4002b;
+}
+
+#perfil{
+    background-color: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    height: 750px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Great Vibes";
+    color: #e4002b;
+
+}
+
+h2{
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #e4002b;
+}
